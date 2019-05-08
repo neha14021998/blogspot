@@ -1,0 +1,10 @@
+body{
+    background-image: url('rosebg.jpg') !important ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    background-size: 100% 100%;
+}

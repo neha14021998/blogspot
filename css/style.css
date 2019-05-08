@@ -1,0 +1,65 @@
+﻿.form-box {
+    -webkit-box-shadow: -4px 3px 45px -1px rgba(0,0,0,0.62);
+    -moz-box-shadow: -4px 3px 45px -1px rgba(0,0,0,0.62);
+    box-shadow: -4px 3px 45px -1px rgba(0,0,0,0.62);
+    padding: 30px 30px;
+    margin:20vh 20px;
+}
+
+.bg{
+    background:url('../images/twe_background-1920x1080.jpg');
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    background-attachment:fixed;
+    background-position:center;
+     
+}
+
+.btn-blue {
+    background-color: rgb(31,196,111);
+}
+
+.glyphicon-adjust {
+    position: absolute;
+    padding: 12px 10px;
+   
+}
+
+form input[type=text], form input[type=password]{
+    padding-left: 40px;
+    height:50px;
+
+}
+
+.btn-enlarge{
+    text-align:center;
+    height:50px;
+    //font-family:'Roboto Slab';
+    font-size:20px;
+}
+h1 {
+    //font-family: Pacifico;
+    font-size: 48px;
+    font-weight: 100;
+    //color: white;
+    text-shadow: 0 0 5px white;
+    text-align:center;
+}
+
+h2{
+    font-size:20px;
+}
+
+.fontstyle, label {
+   // font-family: Pacifico;
+    //color: white;
+    border-color:black;
+}
+
+label{
+    font-size:20px;
+    margin-top:5px;
+    //margin-left:5px;
+    //float:none;
+}

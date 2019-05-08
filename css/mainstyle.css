@@ -1,0 +1,153 @@
+﻿.span-adjust {
+    margin-right: 250px;
+    font-size: 2em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.nav a{
+    transition:0.3s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #CD9A47;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-x: hidden;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 18px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav a:focus, .sidenav a:active{
+            color:white;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+slide {
+    transition: margin-left 0.5s;
+    margin-left: 250px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    margin-left: 250px;
+}
+
+#fa-caret {
+    position: absolute;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#links {
+    display: none;
+}
+
+#aside-nav {
+    width: 250px;
+}
+
+/*.active {
+    background-color: green;
+    color: white;
+}*/
+
+.navbar-wooden, .sidenav {
+    
+    background: url('../images/twe_background-1920x1080.jpg');
+    color: black;
+   
+}
+
+    .navbar-wooden a {
+        color: black;
+    }
+
+        .navbar-wooden a:hover {
+            color: black;
+            background: url('../images/twe_background-1920x1080.jpg');
+        }
+
+        .navbar-wooden a:visited {
+            color: white;
+            background: url('../images/twe_background-1920x1080.jpg');
+        }
+
+.fontstyle {
+    font-family: Pacifico;
+    font-size: 1.5em;
+    color: white;
+}
+
+    .fontstyle a {
+        color: black;
+    }
+
+    .fontstyle div a {
+        color: black;
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white; /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-head > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-head > a:hover {
+    color: black;
+}
+
+.popover, .popover-title, .popover-content{
+    color:black;
+}
+
+.bg {
+    background: url('../images/twe_background-1920x1080.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fontstyle-adjust{
+    color:black;
+    text-align:center;
+    margin: 30vh 0;
+}
